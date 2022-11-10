@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="partials/partials.html :: head('home')"></head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<nav th:replace="partials/partials.html :: nav"></nav>
+<header th:replace="partials/partials.html :: header('')"></header>
+<body>
+<main style="text-align: center; justify-content: center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-xl-9 mx-auto">
+                <div class="card-body" style="flex-direction: column; align-items: center">
+
+                    <h1 class="fst-italic lh-1 my-4">Trusting the Process</h1>
+                    <p class="mb-5">The place where it all began and continues to grow......
+                    </p>
+                    <footer class="blockquote-footer fst-italic"></footer>
+                    <div>
+                        <a class="btn btn-dark m-5" href="/login"><i class=""></i>Login</a>
+                        <a class="btn btn-dark m-5" href="/sign-up"><i class=""></i>Sign Up</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<th:block th:replace="partials/partials.html :: scripts"></th:block>
+</body>
+</html>
+
+
+

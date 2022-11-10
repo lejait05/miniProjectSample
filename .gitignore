@@ -1,0 +1,11 @@
+const MAPBOX_KEY ="" ;
+const OPEN_WEATHER_APPID = "";
+const LINKEDIN_KEY = "";
+Config.java
+src/main/resources/application.properties
+.DS_Store
+node_modules/
+*.log
+haters/
+.idea/
+target/
